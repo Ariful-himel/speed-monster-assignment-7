@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <!-- taliwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <h1 class="text-center mt-9 font-bold text-black-600 text-5xl">BLOG</h1>
+
+    <div class="container mx-auto mt-10">
+        <!-- qu1 -->
+        <div class="">
+            <h1 class="font-bold text-stone-800 text-3xl">Q1 : Difference between local storage and session storage- </h1>
+            <br>
+            <p class="font-bold text-stone-800 text-2xl">local storage</p>
+            <p>The storage capacity of local storage is 5MB/10MB</p>
+            <p>As it is not session-based, it must be deleted via javascript or manually</p>
+            <p>The client  can only read local storage</p>
+            <p>There is no transfer of data to the server</p>
+            <p>There are fewer old browsers that support it</p>
+            <br>
+
+            <!--  -->
+            <p class="font-bold text-stone-800 text-2xl">Session storage</p>
+            <p>The storage capacity of session storage is 5MB</p>
+            <p>It’s session-based and works per window or tab. This means that data is stored only for the duration of a session, i.e., until the browser (or tab) is closed</p>
+            <p>The client can only read local storage</p>
+            <p>There is no transfer of data to the server</p>
+            <p>There are fewer old browsers that support it</p>
+        </div>
+
+        <!-- qu2 -->
+        <div class="mt-16">
+            <h1 class="font-bold text-stone-800 text-3xl">Q2 : Difference between Global Scope and Block Scope:- </h1>
+            <br>
+            <p class="font-bold text-stone-800 text-2xl">Global Scope</p>
+            <p>The variables defined outside of any function or curly brackets are known as global variables and have global scope. Global scope means that the variables can be accessed from any part of that program, any function or conditional state can access that variable.</p>
+            <br>
+
+            <!--  -->
+            <p class="font-bold text-stone-800 text-2xl">Block Scope</p>
+            <p>This scope restricts the variable that is declared inside a specific block, from access by the outside of the block. The let & const keyword facilitates the variables to be block scoped. In order to access the variables of that specific block, we need to create an object for it.</p>
+        </div>
+
+        <!-- qu3 -->
+        <div class="mt-16">
+            <h1 class="font-bold text-stone-800 text-3xl">Q3 : How to works js event loop?</h1>
+            <br>
+            <p>A queue is a data structure that works on the First in First out principle, so as tasks get pushed into the queue, they get out in that same order. Tasks that have been executed by the Web API’s, which are being pushed to the Task Queue, then go back to the Call Stack to get their result printed out.</p>
+        </div>
+
+
+
+        <!-- qu3 -->
+        <div class="mt-16 mb-16">
+            <h1 class="font-bold text-stone-800 text-3xl">Q4 : How to works js event loop?</h1>
+            <br>
+            <ul>
+                <li>1. The undefined is a primitive type that has a single value undefined.</li>
+                <li>2. an uninitialized variable returns undefined.</li>
+                <li>3. Accessing a non-existing property of an object returns undefined.</li>
+                <li>4. Accessing a out-of-bounds array element returns undefined.</li>
+                <li>5. A function without a return statement or with a return statement but without an expression returns undefined.</li>
+            </ul>
+
+        </div>
+
+         
+    </div>
+
+
+</body>
+</html>
